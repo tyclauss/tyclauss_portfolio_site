@@ -287,12 +287,12 @@ img.hoverImages:hover {
 		padding-left: 30px;
 	}
 
-	#portfolio {
+	.portfolio {
 		width: 100%;
 		padding-top: 20px;
 	}
 
-	#about-me {
+	.about-me {
 		width: 100%;
 	}
 
@@ -307,7 +307,7 @@ img.hoverImages:hover {
 
 	.sub-title-two {
 		font-family: "Muli";
-		font-size: 30px;
+		font-size: 25px;
 		line-height: .1em;
 		padding-left: 30px;
 		display: inline-block;
@@ -329,6 +329,17 @@ img.hoverImages:hover {
 
 	.project-pic-frame {
 		height: 100px;
+	}
+}
+
+@media only screen and (max-width: 650px)
+{
+	.project-pic-frame {
+		height: 65px;
+	}
+
+	.sub-title-two {
+		font-size: 20px;
 	}
 }
 
